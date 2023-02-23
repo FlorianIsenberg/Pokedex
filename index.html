@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/pokeball.png" />
     <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Pokedex</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar bg-body-tertiary bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="img/pokedex_logo.png" alt="" /></a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <section class="pokedexBackground">
+      <div class="pokemonCard">
+        <div class="pokemonCardContent">
+          <div class="pokemonName">pokemonName</div>
+          <div>#1</div>
+        </div>
+        <div class="pokemonClass">
+          <div class="class">grass</div>
+          <div class="class">poison</div>
+        </div>
+        <img src="" alt="BISASAM" />
+      </div>
+    </section>
+  </body>
 </html>
