@@ -60,21 +60,52 @@ h1 {
 }
 .pokemonCard {
   background-color: #e18d2f;
-  min-width: 280px;
-  max-width: 280px;
-  min-height: 200px;
-  max-height: 200px;
-  padding: 24px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 220px;
+  max-height: 220px;
+  padding: 18px;
   border-radius: 20px;
   background-image: url(img/ball.png);
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
+.pokemonCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemonName {
+  font-size: 28px;
+  margin: 10px 0 10px 0;
+}
+
+.pokemonNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemonClass {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .pokemonCardContent {
   display: flex;
   justify-content: space-between;
 }
-span {
-  color: #fff;
+
+.pokemonCardContent img {
+  margin-right: 10px;
+}
+
+.fightClass {
+  font-size: 13px;
+  padding: 5px;
+  width: auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.125);
 }
